@@ -1,0 +1,75 @@
+body.accessibility-checker-active {
+    margin-right:300px;
+}
+.accessibility-checker-popup {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: calc(100vh - 40px);
+    background: white;
+    padding: 20px;
+    border-left: 1px solid #ccc;
+    overflow-y: auto;
+    z-index: 10000;
+    box-shadow: -2px 0 5px rgba(0,0,0,0.2);
+    background:#1d2327;
+    color:#f0f0f1;
+    font-size:14px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+.accessibility-checker-popup h2,
+.accessibility-checker-popup h3,
+.accessibility-checker-popup p,
+.accessibility-checker-popup ul,
+.accessibility-checker-popup button {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+.accessibility-checker-popup button {
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+}
+.accessibility-checker-popup h2 {
+    color:#f0f0f1;
+    font-size:2em;
+    font-weight: 500;
+}
+.accessibility-checker-popup h3 {
+    color:#f0f0f1;
+    font-size:1.5em;
+}
+.accessibility-checker-popup .red {
+    color:#f00;
+}
+.accessibility-checker-popup .green {
+    color:#0f0;
+}
+.accessibility-checker-popup button {
+    background: #1d2327;
+    color: #f0f0f1;
+    border: 1px solid #f0f0f1;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor:pointer;
+}
+.accessibility-checker-popup ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.accessibility-checker-popup ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 10px;
+}
+.accessibility-checker-popup ul li a {
+    color: #f0f0f1;
+    text-decoration: none;
+    font-size: 1em;
+}
+.accessibility-checker-popup ul li a:hover {
+    text-decoration: underline;
+}

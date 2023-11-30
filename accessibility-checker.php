@@ -1,8 +1,8 @@
 <?php
 /**
- * Plugin Name: Accessibility Checker
+ * Plugin Name: Light Accessibility Checker
  * Description: Checks pages for text-to-speech, keyboard navigation, color contrast, and alt text.
- * Version: 1.0
+ * Version: 1.1.0
  * Author: Slava Trofimov
  */
 
@@ -47,9 +47,6 @@ function handle_accessibility_test() {
         wp_die();
     }
 
-    // Here, you will implement the logic to perform accessibility tests
-    // This part needs further development based on how you plan to execute and retrieve the test results
-
     echo 'Testing: ' . esc_url($pageUrl);
-    wp_die(); // Terminate and return a proper response
+    wp_die();
 }
